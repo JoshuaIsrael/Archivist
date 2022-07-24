@@ -1,10 +1,10 @@
 import { ITheme } from "../app/interfaces";
 
 export const LightTheme: ITheme = {
-    primary: '#FFFFFF',
-    secondary: '#F9F9FA',
-    tertiary: '#EFF0F2',
-    quaternary: '#DBDEE1',
+    primary: '#DBDEE1',
+    secondary: '#EFF0F2',
+    tertiary: '#F9F9FA',
+    quaternary: '#FFFFFF',
     success: '#28A746',
     danger: '#DC3546',
     warning: '#FFC107',

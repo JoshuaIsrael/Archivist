@@ -9,7 +9,7 @@ const ToolBar: FC<ToolBarProps> = () => {
   const themeContext = useContext(ThemeContext);
 
   const toolBarStyle = {
-    backgroundColor: themeContext?.theme?.tertiary,
+    backgroundColor: themeContext?.theme?.primary,
     color: themeContext?.theme?.medium
   }
 

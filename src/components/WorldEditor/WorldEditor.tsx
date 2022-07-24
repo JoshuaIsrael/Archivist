@@ -8,7 +8,7 @@ const WorldEditor: FC<WorldEditorProps> = () => {
   const themeContext = useContext(ThemeContext);
 
   const worldEditorStyle = {
-    backgroundColor: themeContext?.theme?.quaternary,
+    backgroundColor: themeContext?.theme?.secondary,
     color: themeContext?.theme?.medium
   }
 
