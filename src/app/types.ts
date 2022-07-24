@@ -1,3 +1,5 @@
+import { ReactElement } from "react"
+
 export type ThemeType = {
     primary: string,
     secondary: string,
@@ -10,4 +12,11 @@ export type ThemeType = {
     light: string,
     medium: string,
     heavy: string
+}
+
+export type ActivityType = {
+    name: string,
+    path: string,
+    icon: ReactElement,
+    element: ReactElement
 }
