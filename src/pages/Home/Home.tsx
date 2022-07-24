@@ -9,11 +9,11 @@ interface HomeProps {}
 
 const Home: FC<HomeProps> = () => (
   <div className={styles.Home}>
-    <ActivityBar/>
-    <SideBar/>
+    <ToolBar/>
     <div className={styles.Workspace}>
-      <ToolBar/>
+      <ActivityBar/>
       <Outlet/>
+      <SideBar/>
     </div>
   </div>
 );
