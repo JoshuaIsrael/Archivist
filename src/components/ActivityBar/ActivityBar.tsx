@@ -8,7 +8,7 @@ const ActivityBar: FC<ActivityBarProps> = () => {
   const themeContext = useContext(ThemeContext);
 
   const activityBarStyle = {
-    backgroundColor: themeContext?.theme?.primary,
+    backgroundColor: themeContext?.theme?.tertiary,
     color: themeContext?.theme?.medium
   }
 

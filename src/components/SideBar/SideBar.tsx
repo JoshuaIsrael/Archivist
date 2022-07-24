@@ -8,7 +8,7 @@ const SideBar: FC<SideBarProps> = () => {
   const themeContext = useContext(ThemeContext);
 
   const sideBarStyle = {
-    backgroundColor: themeContext?.theme?.secondary,
+    backgroundColor: themeContext?.theme?.tertiary,
     color: themeContext?.theme?.medium
   }
 
