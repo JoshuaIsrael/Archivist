@@ -1,4 +1,5 @@
 import React, { FC, useContext } from 'react';
+import ThemeSwitch from '../../common/ThemeSwitch/ThemeSwitch';
 import ThemeContext from '../../contexts/ThemeContext';
 import styles from './ToolBar.module.scss';
 
@@ -14,7 +15,8 @@ const ToolBar: FC<ToolBarProps> = () => {
 
   return (
     <div className={styles.ToolBar} style={toolBarStyle}>
-      ToolBar Component
+      ToolBar component
+      <ThemeSwitch/>
     </div>
   )
 };
