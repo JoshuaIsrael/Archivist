@@ -18,7 +18,11 @@ const ThemeSwitch: FC<ThemeSwitchProps> = () => {
   return (
     <div className={styles.ThemeSwitch}>
       <FormGroup>
-        <FormControlLabel control={<Switch defaultChecked onChange={onThemeChange}/>} label={themeContext?.theme === DarkTheme ? <BsSunFill/> : <BsMoonFill/> } />
+        <FormControlLabel control={<Switch defaultChecked onChange={onThemeChange}/>} label={
+          <div className={styles.SwitchLabel}>
+            {themeContext?.theme === DarkTheme ? <BsSunFill/> : <BsMoonFill/>}
+          </div>
+        } />
       </FormGroup>
     </div>
   )
