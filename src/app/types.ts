@@ -18,5 +18,6 @@ export type ActivityType = {
     name: string,
     path: string,
     icon: ReactElement,
-    element: ReactElement
+    element: ReactElement,
+    isActive: boolean
 }

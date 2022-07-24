@@ -7,7 +7,8 @@ export const Activities: ActivityType[] = [
         name: 'World Editor',
         path: 'world-editor',
         icon: <FaMapMarkedAlt/>,
-        element: <WorldEditor/>
+        element: <WorldEditor/>,
+        isActive: true
     }
 ]
 

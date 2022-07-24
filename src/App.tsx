@@ -1,5 +1,5 @@
 import './App.scss';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate  } from 'react-router-dom'
 import { useState } from 'react';
 import { DarkTheme } from './themes/dark-theme';
 import Home from './pages/Home/Home';
@@ -15,7 +15,8 @@ function App() {
         <Router>
           <Routes>
             <Route path='' element={<Home/>}>
-              <Route path='' element={<WorldEditor/>}></Route>
+              <Route path='' element={<Navigate to='world-editor'/>}></Route>
+              <Route path='world-editor' element={<WorldEditor/>}></Route>
             </Route>
           </Routes>
         </Router>
